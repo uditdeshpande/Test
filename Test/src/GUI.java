@@ -86,6 +86,13 @@ public class GUI extends JFrame implements ActionListener{
 	b1.setBackground(Color.GRAY);
 		west.add(b2);
 		west.add(b1);
+		root.setBackground(Color.BLACK);
+		root.add(mb);
+	}
+	if(e.getSource()==b2)
+	{
+		root.removeAll();
+		root.repaint();
 	}
 		
 	}
